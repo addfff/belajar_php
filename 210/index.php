@@ -12,7 +12,7 @@
 	</head>
 	<body>
     <div align="center">
-			<h1><$mula></h1>
+			<h1><?=$mula?></h1>
     </div>
 	</body>
 </html>
