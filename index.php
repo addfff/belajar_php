@@ -19,7 +19,7 @@
          <h1><?=$sir?></h1>
 		 version : <?=$version?><br>
 		 fork    : <?=$version-0.1;?><br>
-		 date	 : <?=$date?><br>
+		 date	 : <?=$date_update?><br>
       </div>
    </body>
 </html>
