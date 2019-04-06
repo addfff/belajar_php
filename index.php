@@ -1,6 +1,7 @@
 <?
 	$title = "Belajar PHP";
 	$version = 1.1;
+	$date_update = "12 April 2019";
 ?>
 
 <html>
@@ -17,6 +18,7 @@
          <h1><?=$sir?></h1>
 		 version : <?=$version?><br>
 		 fork    : <?=$version-0.1;?><br>
+		 date	 : <?=$date?><br>
       </div>
    </body>
 </html>
