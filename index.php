@@ -2,6 +2,7 @@
 	$title = "Belajar PHP";
 	$version = 1.1;
 	$date_update = "12 April 2019";
+	$isAtom = true;
 ?>
 
 <html>
