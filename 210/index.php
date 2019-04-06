@@ -1,5 +1,5 @@
 <?
-  $title = "Bismillah"
+  $title = "Bismillah";
   $mula="Dengan Nama Allah Yang Maha Pemurah Lagi Maha Mengasihani";
 
 ?>
