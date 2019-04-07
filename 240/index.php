@@ -1,11 +1,12 @@
 <?
 
-	function thanksGod(){
-		echo "Alhamdulillah";
+	function thanksGod($begin){
+		echo "$begin. Alhamdulillah.<br>";
 	}
 
-	echo "Syukur ";
-	thanksGod();
-
+	thanksGod("Syukur");
+	thanksGod("Terima Kasih");
+	thanksGod("Dah siap");
+	thanksGod("Akhirnya sampai juga");
 
 ?>
