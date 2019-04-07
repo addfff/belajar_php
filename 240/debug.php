@@ -1,5 +1,5 @@
 <?
-	$debug = true;
+	$debug = 0;
 	require 'index.php';
 
 	function callDebug($ori, $sepatutnya, $test){
@@ -23,11 +23,15 @@
 
 <?
 	$total = 9 + 10;
+  if($debug){
+	callDebug($total,"21",$debug);
+  }
+  else {
 
-	echo "There are " . callDebug($total,"21",$debug);
+	echo "There are " . $total;
 	echo " students learn PHP. ";
 	thanksGod("<br>OK ");
-
+  }
 ?>
 
 </div>
