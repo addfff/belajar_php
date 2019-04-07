@@ -1,8 +1,9 @@
 <?
 	$title = "Belajar PHP";
-	$version = 2;
+	$version = 3;
 	$date_update = "12 April 2019";
-	$isAtom = true;
+   $isAtom = false;
+            //Now on VSC
 ?>
 
 <html>
