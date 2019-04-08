@@ -5,26 +5,18 @@ class Janji {
         var $bila;
         var $katmana;
         var $isBoleh;
+
+	function __construct($a,$b,$c,$d){
+				$this->bil = $a;
+				$this->bila = $b;
+				$this->katmana = $c;
+				$this->isBoleh = $d;
+
+	}
+
 }
 
-$harini = new Janji;
-$harini->bil = 1;
-$harini->bila = date("d-m-Y");
-$harini->katmana = "Dewan Perdana";
-$harini->isBoleh = true;
+	$tadi = new Janji(100,date("d-m-Y H:i",strtotime("- 6 hours")),"kat mana mana ler",true);
 
-//echo $harini->isBoleh;
-
-$d = strtotime("tomorrow");
-$esok = new Janji;
-$esok->bil = 2;
-$esok->bila = date("d-m-Y", $d);
-$esok->katmana = "Tempat Biasa";
-$esok->isBoleh = "insyaAllah";
-
-echo $esok->bila;
-
-
-
-
+	echo $tadi->bila;
 ?>
