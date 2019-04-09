@@ -24,12 +24,10 @@ class Janji {
 	}
 
 	function setBoleh($newBoleh){
-		if($newBoleh)
+		//if(($newBoleh==1)||($newBoleh==0))
 			$this->isBoleh = $newBoleh;
-		else if(!$newBoleh)
-			$this->isBoleh = $newBoleh;
-		else
-			echo "Sila masukkan true/false sahaja";
+		//else
+			//echo "Sila masukkan true/false sahaja";
 	}		
 }
 
