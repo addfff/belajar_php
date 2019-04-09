@@ -16,7 +16,20 @@ class Janji {
 
 }
 
-	$tadi = new Janji(100,date("d-m-Y H:i",strtotime("- 6 hours")),"kat mana mana ler",true);
 
-	echo $tadi->bila;
+$d = strtotime("next Sunday");
+$ahadni = new Janji(3, date("d-m-Y", $d), "CS", "false");
+
+$d = strtotime("next Tuesday");
+$selasani = new Janji(4, date("d-m-Y", $d), "TBA", 0);
+
+//echo $ahadni->isBoleh;
+echo $ahadni->bila;
+
+//if ($ahadni->isBoleh == 0)
+//	echo "false boleh digunakan";
+//else
+//	echo '"false" bukan false';
+
+
 ?>
