@@ -16,7 +16,7 @@ class JanjiMelayu extends Janji {
 		echo "<br>Yes";
 	}
 }
-
+/*
 $d = strtotime("3pm first day of -1 month");
 $e = "RNR";
 
@@ -30,5 +30,6 @@ $nantilah->setBoleh("palsu");
 $r = $nantilah->getBoleh();
 $s = $nantilah->hasBoleh();
 echo "<br>$s ($r)";
+*/
 ?>
 
