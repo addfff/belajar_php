@@ -14,22 +14,38 @@ class Janji {
 
 	}
 
+	function hasBoleh(){
+		if($this->isBoleh)
+			return "InsyaAllah";
+		else
+			return "Innalillah";
+	}
+
+	function setBoleh($newBoleh){
+		if($newBoleh)
+			$this->isBoleh = $newBoleh;
+		else if(!$newBoleh)
+			$this->isBoleh = $newBoleh;
+		else
+			echo "Sila masukkan true/false sahaja";
+	}
+	
+	function getBoleh(){
+		return $this->isBoleh;
+	}	
 }
 
 
-$d = strtotime("next Sunday");
-$ahadni = new Janji(3, date("d-m-Y", $d), "CS", "false");
+$d = strtotime("+3 Months");
+$e = "Kat mana-mana pun takpa";
+$nantilah = new Janji(5, date("d-m-Y", $d), $e, 1);
 
-$d = strtotime("next Tuesday");
-$selasani = new Janji(4, date("d-m-Y", $d), "TBA", 0);
+//echo $nantilah->bila;
+//echo $nantilah->katmana;
+//$nantilah->setBoleh(0);
 
-//echo $ahadni->isBoleh;
-echo $ahadni->bila;
+echo $nantilah->hasBoleh();
 
-//if ($ahadni->isBoleh == 0)
-//	echo "false boleh digunakan";
-//else
-//	echo '"false" bukan false';
-
+//echo $nantilah->getBoleh();
 
 ?>
